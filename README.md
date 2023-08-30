@@ -38,7 +38,8 @@ The API could contain functionality for the following:
 ## How to Run
 
 ```shell
-pip install pyglet
+pip uninstall pyglet
+pip install pyglet==1.5.27
 git clone https://github.com/fogleman/Minecraft.git
 cd Minecraft
 python main.py
